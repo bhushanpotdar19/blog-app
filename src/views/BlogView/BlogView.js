@@ -5,7 +5,7 @@ import blogs from "../../data"
 function BlogView() {
     const {id} = useParams()
 
-    const selectedBlog = blogs.find((blogObject)=> blogObject.id == id
+    const selectedBlog = blogs.find((blogObject)=> blogObject.id === id
     )
     console.log(selectedBlog);
   return (
